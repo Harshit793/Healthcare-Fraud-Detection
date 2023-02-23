@@ -207,10 +207,10 @@ def main():
      
 
 # Get prediction
-     prediction=clf['Stack'].predict(X.values)
+     prediction=clf.predict(X.values)
 
 # Output prediction
-     st.text(f"This instance is a {(lambda x : 'Fraud' if(x==1).any() else 'legitimate')(prediction)}")
+     st.text(f"This instance is a {(lambda x : 'Fraud' if(x==1).any() else 'legitimate')(prediction[0])}")
     
 if __name__ == '__main__':
 	main()    
