@@ -15,10 +15,10 @@ d) Charging for a more complex or expensive service than was actually provided.
 
 e) Billing for a covered service when the service actually provided was not covered.
 
-#Problem Statement
+# Problem Statement
 The goal of this project is to " predict the potentially fraudulent providers " based on the claims filed by them.along with this, we will also discover important variables helpful in detecting the behaviour of potentially fraud providers. further, we will study fraudulent patterns in the provider's claims to understand the future behaviour of providers.
 
-#Introduction to the Dataset
+# Introduction to the Dataset
 For the purpose of this project, we are considering Inpatient claims, Outpatient claims and Beneficiary details of each provider. Lets s see their details :
 
 ### A) Inpatient Data
